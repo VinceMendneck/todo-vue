@@ -5,13 +5,7 @@ const estado = reactive({
   filtro: 'todas',
   tarefaTemp: '',
   tarefa: [
-    { nome: 'Estudar Vue.js', concluida: false },
-    { nome: 'Estudar React.js', concluida: false },
-    {nome: 'Estudar Angular.js', concluida: false },
-    { nome: 'Estudar Node.js', concluida: false },
-    {  nome: 'Estudar PHP', concluida: false },
-    { nome: 'Estudar Java', concluida: false },
-    {  nome: 'Estudar Python', concluida: false },
+    { nome: '', concluida: false },
   ],
 });
 const getTarefasPendentes = () => {
