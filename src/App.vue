@@ -6,7 +6,6 @@ const estado = reactive({
   tarefaTemp: '',
   tarefa: [
     
-
   ],
 });
 const getTarefasPendentes = () => {
